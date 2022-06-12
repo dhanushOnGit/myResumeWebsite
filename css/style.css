@@ -1,0 +1,218 @@
+*{
+  text-align: center;
+    box-sizing: border-box;
+    
+    
+}
+.html-bg{
+  background-color: rgb(243, 217, 177);
+}
+
+.heading:hover{
+    color: rgb(255, 0, 0);
+}
+.info{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.input-group{
+
+  height: auto;
+}
+.navbar-block{
+  width: 100%;
+background: black;
+min-height: 30px;
+padding: 10px;
+text-align: center;
+font-size: 25px;
+text-align: center;
+}
+.navbar{
+    
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  
+}
+
+.navbar .name {
+  display: none;
+  
+}
+.navbar li {
+  display:inline;
+  padding: 5px 10px 10px 10px;
+}
+.navbar a {
+  transition: all .5s;
+}
+.navbar a:hover {
+  color: white
+}
+#gitsearch:focus{
+  background-color: #DEC0F1;
+}
+#gitsearch-1{
+  
+  background-color: green;
+  color: white;
+  width: 10%;
+}
+/*
+.bg-img{
+  background-image: url("https://www.esa.int/var/esa/storage/images/19716864-11-eng-GB/ESA_root_pillars.jpg");
+}*/
+.heading{
+  font-family: Garamond, serif;
+  padding-left: 46px;
+}
+.mylogo{
+    text-align: center;
+    margin-top: 50px;
+    width: 165px;
+    height: 111px;
+    border-radius: 25%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #0d2efd00;
+    border-image: initial;
+    transition: transform .5s ease-in-out;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+.bg-img img.mylogo-onhover{
+  text-align: center;
+  
+  width: 199px;
+  height: 178px;
+  border-radius: 51%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #0d2efd00;
+  border-image: initial;
+  display: block;
+margin-left: auto;
+
+  position: absolute;
+  top: 126px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.bg-img:hover img.mylogo-onhover{
+
+  opacity: 1;
+}
+
+.mylogo:hover{
+  
+  transform: scale(1.2) rotate(360deg);
+}
+a {
+    text-decoration: none;
+    color: #0073e6;
+  }
+  a:hover {
+    color: #6633ff;
+  }
+  
+.intro{
+    color: rgb(147, 165, 42);
+}
+
+.skills{
+  color: black;
+  
+} 
+
+.skills .lang:hover{
+
+background-color: black;
+background-size: 10px;
+color: whitesmoke;
+
+}
+
+
+  .myname {
+    display: flex;
+    border: 2px solid white;
+    
+  }
+  
+  ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+  }
+  .handles::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .handles li{
+    
+    display:inline-block;
+    margin-left: 5px;
+  }
+  .handles-contact{
+    padding-bottom: 58px;
+    padding-right: 238px;
+    
+    bottom: 0;
+    width: 100%;
+
+  }
+  .handle{
+    text-align: center;
+    height: 36px;
+    border-radius: 72%;
+    display: block;
+    margin-left: 170px;
+  margin-right: 66px;
+  float:right;
+    transition: transform .5s ease-in-out;
+  }
+  .handle:hover{
+    transform: scale(0.75) rotate(360deg);
+  }
+  #sports-link:hover{
+
+    border: 2px solid rgb(81, 187, 254);
+    color: black;
+  }
+
+  .details{
+    margin:13%;
+    width: 77%;
+    padding: 0px;
+  }
+  .rights-contact{
+    
+      
+      bottom: 0;
+      width: 100%;
+      
+  }
+  .rights{
+      background-color: white;
+  }
+  .copyrights{
+      text-align: center;
+      color: white;
+      background-color: black;
+      
+  }
