@@ -1,11 +1,19 @@
 *{
+ 
+  /* overflow-x: hidden; */
   text-align: center;
-    box-sizing: border-box;
+    box-sizing:content-box; 
+    background-color: rgb(243, 217, 177);
+    max-width: 1498px;
     
     
 }
-.html-bg{
+body{
   background-color: rgb(243, 217, 177);
+}
+
+.navbar-toggler{
+  background-color: white;
 }
 
 .heading:hover{
@@ -13,10 +21,15 @@
 }
 .info{
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 .input-group{
 
   height: auto;
+}
+.home{
+
+  width: 30px;
 }
 .navbar-block{
   width: 100%;
@@ -27,6 +40,7 @@ text-align: center;
 font-size: 25px;
 text-align: center;
 }
+
 .navbar{
     
   display: flex;
@@ -35,6 +49,8 @@ text-align: center;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  margin-left: -1%;
+    margin-right: -1%;
   
 }
 
@@ -60,6 +76,7 @@ text-align: center;
   background-color: green;
   color: white;
   width: 10%;
+  
 }
 /*
 .bg-img{
@@ -67,8 +84,15 @@ text-align: center;
 }*/
 .heading{
   font-family: Garamond, serif;
+  
   padding-left: 46px;
 }
+.education,.experiences,.skills{
+    line-height: 28px;
+    letter-spacing: 1px;
+
+}
+
 .mylogo{
     text-align: center;
     margin-top: 50px;
@@ -101,7 +125,7 @@ text-align: center;
 margin-left: auto;
 
   position: absolute;
-  top: 126px;
+  top: 60px;
   right: 0;
   left: 0;
   bottom: 0;
@@ -127,7 +151,7 @@ a {
   }
   
 .intro{
-    color: rgb(147, 165, 42);
+  color: palevioletred;
 }
 
 .skills{
@@ -143,11 +167,57 @@ color: whitesmoke;
 
 }
 
+.block {
+  
+  padding: 50px 0;
+  transition: background .3s ease-in-out;
+}
+.marquee .text {
+    display: flex;
+    font-size: clamp(5rem, 15vw, 16rem);
+    font-weight: 700;
+    line-height: 125%;
+    white-space: nowrap;
+    z-index: auto;
+}
+@media screen and (min-width:375px) and (max-width:667px)
+{
+  .marquee.text,.sticky{
+    display: none;
+  }
+  .handles li {
+    display: inline-block;
+    margin-right: 83px;
+}
+.intro {
+  color: palevioletred;
+  letter-spacing: 1px;
+  line-height: 29px;
+}
+/*  */
+}
 
   .myname {
     display: flex;
     border: 2px solid white;
     
+  }
+  .sticky{
+    overflow-x: hidden;
+    position: fixed;
+    top:0;
+  }
+  .movetext{
+    position: fixed;
+    font-size: clamp(3rem, 0vw, 6rem);
+    font-weight: 700;
+    line-height: 125%;
+    white-space: nowrap;
+    z-index: auto;
+    right: -700px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  
   }
   
   ul{
@@ -179,7 +249,7 @@ color: whitesmoke;
   .handle{
     text-align: center;
     height: 36px;
-    border-radius: 72%;
+    /*border-radius: 72%;*/
     display: block;
     margin-left: 170px;
   margin-right: 66px;
@@ -211,8 +281,13 @@ color: whitesmoke;
       background-color: white;
   }
   .copyrights{
+
       text-align: center;
       color: white;
       background-color: black;
       
   }
+  .copyrights a{
+    background-color:black ;
+  }
+ 
